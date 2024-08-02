@@ -18,9 +18,9 @@
 
 1. 下载已安装 openEuler 的 QEMU 架构镜像，并于 Virt Manager 中配置安装。
    
-    ![图1_在QEMU中打开镜像](.\imgs\0_install_Euler_in_QEMU.png)
+    ![图1_在QEMU中打开镜像](./imgs/0_install_Euler_in_QEMU.png)
 
-    ![图2_在QEMU中打开镜像](.\imgs\0_install_Euler_in_QEMU2.png)
+    ![图2_在QEMU中打开镜像](./imgs/0_install_Euler_in_QEMU2.png)
 
 2. 登录用户名及密码：
    1. 用户名：`root`
@@ -111,7 +111,7 @@
    ```
    ros2 run turtlesim turtle_teleop_key
    ```
-   ![turtlesim测试](imgs\1_turtlesim.png)
+   ![turtlesim测试](./imgs/1_turtlesim.png)
 
 2. 测试 rqt 功能
    
@@ -119,7 +119,7 @@
    ```
    rqt
    ```
-   ![rqt测试](imgs\1_rqt.png)
+   ![rqt测试](./imgs/1_rqt.png)
 
 
 ### 2. Understanding nodes
@@ -141,7 +141,7 @@
    ```
    ros2 node list
    ```
-   ![nodelist](imgs\2_node_list.png)
+   ![nodelist](./imgs/2_node_list.png)
 
 3. 重新分配 node 属性
    
@@ -156,7 +156,7 @@
     ```
    ros2 node info /my_turtle
    ```
-   ![nodelist](imgs\2_node_info.png)
+   ![nodelist](./imgs/2_node_info.png)
 
 ### 3. Understanding topics
 | 测试用例名 | 测试状态 |
@@ -179,7 +179,7 @@
    ```
    ros2 topic list
    ```
-   ![topiclist](imgs\3_topics_list.png)
+   ![topiclist](./imgs/3_topics_list.png)
 
 3. 测试 topic echo
    
@@ -187,7 +187,7 @@
    ```
    ros2 topic echo /turtle1/cmd_vel
    ```
-   ![topicecho](imgs\3_topics_echo.png)
+   ![topicecho](./imgs/3_topics_echo.png)
 
 4. 测试 topic info
    
@@ -195,7 +195,7 @@
    ```
    ros2 topic info /turtle1/cmd_vel
    ```
-   ![topicinfo](imgs\3_topics_info.png)
+   ![topicinfo](./imgs/3_topics_info.png)
 
 5. 测试 interface show
    
@@ -203,7 +203,7 @@
    ```
    ros2 interface show geometry_msgs/msg/Twist
    ```
-   ![topic_interface_show](imgs\3_topics_interface_show.png)
+   ![topic_interface_show](./imgs/3_topics_interface_show.png)
 
 6. 测试 topic pub
    
@@ -211,7 +211,7 @@
    ```
    ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
    ```
-   ![topicpub](imgs\3_topics_pub.png)
+   ![topicpub](./imgs/3_topics_pub.png)
 
 7. 测试 topic hz
    
@@ -219,7 +219,7 @@
    ```
    ros2 topic hz /turtle1/pose
    ```
-   ![topichz](imgs\3_topics_hz.png)
+   ![topichz](./imgs/3_topics_hz.png)
 
 
 ### 4. Understanding services
@@ -240,7 +240,7 @@
    ```
    ros2 service list
    ```
-   ![servicelist](imgs\4_services_list.png)
+   ![servicelist](./imgs/4_services_list.png)
 
 3. 测试 topic type
    
@@ -248,7 +248,7 @@
    ```
    ros2 service type /clear
    ```
-   ![servicetype](imgs\4_services_type.png)
+   ![servicetype](./imgs/4_services_type.png)
 
 4. 测试 topic list -t
    
@@ -256,7 +256,7 @@
    ```
    ros2 service list -t
    ```
-   ![servicelistt](imgs\4_services_list_t.png)
+   ![servicelistt](./imgs/4_services_list_t.png)
 
 5. 测试 topic find
    
@@ -264,7 +264,7 @@
    ```
    ros2 service find std_srvs/srv/Empty
    ```
-   ![servicefind](imgs\4_services_find.png)
+   ![servicefind](./imgs/4_services_find.png)
 
 6. 测试 interface show
    
@@ -272,7 +272,7 @@
    ```
    ros2 interface show turtlesim/srv/Spawn
    ```
-   ![serviceinterfaceshow](imgs\4_services_interface_show.png)
+   ![serviceinterfaceshow](./imgs/4_services_interface_show.png)
 
 7. 测试 interface service call
    
@@ -280,7 +280,7 @@
    ```
    ros2 service call /clear std_srvs/srv/Empty
    ```
-   ![servicecall](imgs\4_services_call.png)
+   ![servicecall](./imgs/4_services_call.png)
 
 
 ### 5. Understanding parameters
@@ -300,7 +300,7 @@
    ```
    ros2 param list
    ```
-   ![paramlist](imgs\5_param_list.png)
+   ![paramlist](./imgs/5_param_list.png)
 
 3. 测试 param get
    
@@ -308,7 +308,7 @@
    ```
    ros2 param get /turtlesim background_g
    ```
-   ![paramget](imgs\5_param_get.png)
+   ![paramget](./imgs/5_param_get.png)
 
 4. 测试 param set
    
@@ -316,7 +316,7 @@
    ```
    ros2 param set /turtlesim background_r 150
    ```
-   ![paramset](imgs\5_param_set.png)
+   ![paramset](./imgs/5_param_set.png)
 
 5. 测试 param dump
    
@@ -324,7 +324,7 @@
    ```
    ros2 param dump /turtlesim > turtlesim.yaml
    ```
-   ![paramdump](imgs\5_param_dump.png)
+   ![paramdump](./imgs/5_param_dump.png)
 
 6. 测试 param load
    
@@ -332,7 +332,7 @@
    ```
    ros2 param load /turtlesim turtlesim.yaml
    ```
-   ![paramload](imgs\5_param_load.png)
+   ![paramload](./imgs/5_param_load.png)
 
 
 ### 6. Understanding actions
@@ -353,7 +353,7 @@
    ```
    ros2 action list
    ```
-   ![actionlist](imgs\6_action_list.png)
+   ![actionlist](./imgs/6_action_list.png)
 
 3. 测试 action info
    
@@ -361,7 +361,7 @@
    ```
    ros2 action info /turtle1/rotate_absolute
    ```
-   ![actioninfo](imgs\6_action_info.png)
+   ![actioninfo](./imgs/6_action_info.png)
 
 4. 测试 interface show
    
@@ -369,7 +369,7 @@
    ```
    ros2 interface show turtlesim/action/RotateAbsolute
    ```
-   ![actioninterface](imgs\6_action_interface_show.png)
+   ![actioninterface](./imgs/6_action_interface_show.png)
 
 5. 测试 action send_goal
    
@@ -377,7 +377,7 @@
    ```
    ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
    ```
-   ![actionsendgoal](imgs\6_action_send_goal.png)
+   ![actionsendgoal](./imgs/6_action_send_goal.png)
 
 ### 7. Using rqt_console to view logs
 | 测试用例名 | 测试状态 |
@@ -389,7 +389,7 @@
    ```
    ros2 run rqt_console rqt_console
    ```
-    ![rqt_console](imgs\7_rqt_console.png)
+    ![rqt_console](./imgs/7_rqt_console.png)
 
 2. 在 `rqt_console` 中查看 log
    
@@ -397,7 +397,7 @@
    ```
    ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}"
    ```
-    ![rqt_console_msg](imgs\7_rqt_console_log.png)
+    ![rqt_console_msg](./imgs/7_rqt_console_log.png)
 
 
 ### 8. Launching nodes
@@ -411,4 +411,4 @@
    ```
    ros2 launch turtlesim multisim.launch.py
    ```
-    ![rqt_console_msg](imgs\8_launching_nodes.png)
+    ![rqt_console_msg](./imgs/8_launching_nodes.png)
