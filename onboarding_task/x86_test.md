@@ -18,9 +18,9 @@
 
 1. 下载已安装 openEuler 的 QEMU 架构镜像，并于 Virt Manager 中配置安装。
    
-    ![图1_在QEMU中打开镜像](imgs\0_install_Euler_in_QEMU.png)
+    ![图1_在QEMU中打开镜像](.\imgs\0_install_Euler_in_QEMU.png)
 
-    ![图2_在QEMU中打开镜像](imgs\0_install_Euler_in_QEMU2.png)
+    ![图2_在QEMU中打开镜像](.\imgs\0_install_Euler_in_QEMU2.png)
 
 2. 登录用户名及密码：
    1. 用户名：`root`
