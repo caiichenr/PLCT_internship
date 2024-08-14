@@ -71,13 +71,13 @@
 
 1. 修改软件源
    ```
-    bash -c 'cat << EOF > /etc/yum.repos.d/ROS.repo
-    [openEulerROS-humble]
-    name=openEulerROS-humble
-    baseurl=http://121.36.84.172/dailybuild/EBS-openEuler-24.03-LTS/EBS-openEuler-24.03-LTS/EPOL/multi_version/ROS/humble/x86_64/
-    enabled=1
-    gpgcheck=0
-    EOF'
+   bash -c 'cat << EOF > /etc/yum.repos.d/ROS.repo
+   [openEulerROS-humble]
+   name=openEulerROS-humble
+   baseurl=https://eulermaker.compass-ci.openeuler.openatom.cn/api/ems1/repositories/ROS-SIG-Multi-Version_ros-humble_openEuler-24.03-LTS-TEST4/openEuler%3A24.03-LTS/x86_64/
+   enabled=1
+   gpgcheck=0
+   EOF'
    ```
 
 2. 安装 ROS2-humble
