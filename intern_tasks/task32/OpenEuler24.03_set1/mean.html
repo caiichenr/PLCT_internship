@@ -1,0 +1,562 @@
+
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> axpy </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> tensor </TD>
+     <TD> 8410.73 </TD>
+     <TD> 100 </TD>
+     <TD> 8752.19 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#tensor_axpy">snippet</a>/<a href="#tensor_flags">flags</a>  </TD>
+     <TD> <a href="#tensor_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 8202.03 </TD>
+     <TD> 97.5186 </TD>
+     <TD> 7902.09 </TD>
+     <TD> 90.287 </TD>
+     <TD> <a href="#eigen3_axpy">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 8134.64 </TD>
+     <TD> 96.7174 </TD>
+     <TD> 7972.87 </TD>
+     <TD> 91.0957 </TD>
+     <TD> <a href="#ublas_axpy">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 5862.84 </TD>
+     <TD> 69.7067 </TD>
+     <TD> 8868.38 </TD>
+     <TD> 101.328 </TD>
+     <TD> <a href="#OPENBLAS_axpy">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> axpby </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> tensor </TD>
+     <TD> 10850.4 </TD>
+     <TD> 100 </TD>
+     <TD> 9925.27 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#tensor_axpby">snippet</a>/<a href="#tensor_flags">flags</a>  </TD>
+     <TD> <a href="#tensor_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 10831.4 </TD>
+     <TD> 99.8251 </TD>
+     <TD> 10882 </TD>
+     <TD> 109.639 </TD>
+     <TD> <a href="#eigen3_axpby">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 6508.87 </TD>
+     <TD> 59.9874 </TD>
+     <TD> 9589.64 </TD>
+     <TD> 96.6185 </TD>
+     <TD> <a href="#ublas_axpby">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 5230.69 </TD>
+     <TD> 48.2074 </TD>
+     <TD> 7332.11 </TD>
+     <TD> 73.8731 </TD>
+     <TD> <a href="#OPENBLAS_axpby">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> matrix_vector </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 7036.83 </TD>
+     <TD> 100 </TD>
+     <TD> 16697 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_matrix_vector">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 6477.54 </TD>
+     <TD> 92.0518 </TD>
+     <TD> 11871.5 </TD>
+     <TD> 71.0998 </TD>
+     <TD> <a href="#eigen3_matrix_vector">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> tensor </TD>
+     <TD> 4775.59 </TD>
+     <TD> 67.8656 </TD>
+     <TD> 10762.1 </TD>
+     <TD> 64.4551 </TD>
+     <TD> <a href="#tensor_matrix_vector">snippet</a>/<a href="#tensor_flags">flags</a>  </TD>
+     <TD> <a href="#tensor_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 2195.49 </TD>
+     <TD> 31.2 </TD>
+     <TD> 1167.26 </TD>
+     <TD> 6.99087 </TD>
+     <TD> <a href="#ublas_matrix_vector">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> atv </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 6051.15 </TD>
+     <TD> 100 </TD>
+     <TD> 13493.9 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#eigen3_atv">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 4824.1 </TD>
+     <TD> 79.722 </TD>
+     <TD> 14148.1 </TD>
+     <TD> 104.848 </TD>
+     <TD> <a href="#OPENBLAS_atv">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 2517.43 </TD>
+     <TD> 41.6024 </TD>
+     <TD> 1423.21 </TD>
+     <TD> 10.5471 </TD>
+     <TD> <a href="#ublas_atv">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> matrix_matrix </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 15831 </TD>
+     <TD> 100 </TD>
+     <TD> 28873.3 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_matrix_matrix">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 11939.8 </TD>
+     <TD> 75.4202 </TD>
+     <TD> 15403.8 </TD>
+     <TD> 53.3497 </TD>
+     <TD> <a href="#eigen3_matrix_matrix">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> tensor </TD>
+     <TD> 11421.5 </TD>
+     <TD> 72.1462 </TD>
+     <TD> 15637 </TD>
+     <TD> 54.1572 </TD>
+     <TD> <a href="#tensor_matrix_matrix">snippet</a>/<a href="#tensor_flags">flags</a>  </TD>
+     <TD> <a href="#tensor_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 1968.71 </TD>
+     <TD> 12.4358 </TD>
+     <TD> 1343.76 </TD>
+     <TD> 4.654 </TD>
+     <TD> <a href="#ublas_matrix_matrix">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> aat </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 10984.2 </TD>
+     <TD> 100 </TD>
+     <TD> 29175.2 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_aat">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 7719.54 </TD>
+     <TD> 70.2783 </TD>
+     <TD> 14304.2 </TD>
+     <TD> 49.0287 </TD>
+     <TD> <a href="#eigen3_aat">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> trmm </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 12251.4 </TD>
+     <TD> 100 </TD>
+     <TD> 29164.9 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_trmm">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 6826.55 </TD>
+     <TD> 55.7203 </TD>
+     <TD> 14148.4 </TD>
+     <TD> 48.5118 </TD>
+     <TD> <a href="#eigen3_trmm">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> trisolve_vector </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> ublas </TD>
+     <TD> 2355.47 </TD>
+     <TD> 100 </TD>
+     <TD> 6003.12 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#ublas_trisolve_vector">snippet</a>/<a href="#ublas_flags">flags</a>  </TD>
+     <TD> <a href="#ublas_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 1701.77 </TD>
+     <TD> 72.2475 </TD>
+     <TD> 7634.8 </TD>
+     <TD> 127.181 </TD>
+     <TD> <a href="#eigen3_trisolve_vector">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 1480.74 </TD>
+     <TD> 62.8639 </TD>
+     <TD> 8693.39 </TD>
+     <TD> 144.814 </TD>
+     <TD> <a href="#OPENBLAS_trisolve_vector">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> trisolve_matrix </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 12161.8 </TD>
+     <TD> 100 </TD>
+     <TD> 28909.3 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_trisolve_matrix">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 4250.11 </TD>
+     <TD> 34.9465 </TD>
+     <TD> 12378.8 </TD>
+     <TD> 42.8192 </TD>
+     <TD> <a href="#eigen3_trisolve_matrix">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> cholesky </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 3473.9 </TD>
+     <TD> 100 </TD>
+     <TD> 21147.2 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_cholesky">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 2461.66 </TD>
+     <TD> 70.8617 </TD>
+     <TD> 13196.2 </TD>
+     <TD> 62.4016 </TD>
+     <TD> <a href="#eigen3_cholesky">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> partial_lu_decomp </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 3224.6 </TD>
+     <TD> 100 </TD>
+     <TD> 20854 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_partial_lu_decomp">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 2950.16 </TD>
+     <TD> 91.4891 </TD>
+     <TD> 12218.5 </TD>
+     <TD> 58.5905 </TD>
+     <TD> <a href="#eigen3_partial_lu_decomp">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> tridiagonalization </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 5450.93 </TD>
+     <TD> 100 </TD>
+     <TD> 18470.8 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#eigen3_tridiagonalization">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> symv </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 3710.74 </TD>
+     <TD> 100 </TD>
+     <TD> 11978.4 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#eigen3_symv">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 3516.95 </TD>
+     <TD> 94.7776 </TD>
+     <TD> 17167.6 </TD>
+     <TD> 143.322 </TD>
+     <TD> <a href="#OPENBLAS_symv">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> syr2 </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 2841.32 </TD>
+     <TD> 100 </TD>
+     <TD> 8656.24 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#eigen3_syr2">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 1279.97 </TD>
+     <TD> 45.0483 </TD>
+     <TD> 5769.45 </TD>
+     <TD> 66.6508 </TD>
+     <TD> <a href="#OPENBLAS_syr2">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> ger </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 3952.47 </TD>
+     <TD> 100 </TD>
+     <TD> 7523.12 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#eigen3_ger">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 2312.49 </TD>
+     <TD> 58.5074 </TD>
+     <TD> 7441.45 </TD>
+     <TD> 98.9145 </TD>
+     <TD> <a href="#OPENBLAS_ger">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
+<TABLE BORDER CELLPADDING=2>
+  <TR>
+    <TH ALIGN=CENTER> rot </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> in cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> in cache <BR> % best </TH>
+    <TH ALIGN=CENTER> <a href=#mean_marker> out of cache <BR> mean perf <BR> Mflops </a></TH>
+    <TH ALIGN=CENTER> out of cache <BR> % best </TH>
+    <TH ALIGN=CENTER> details </TH>
+    <TH ALIGN=CENTER> comments </TH>
+  </TR>
+  <TR>
+     <TD> OPENBLAS </TD>
+     <TD> 14815.8 </TD>
+     <TD> 100 </TD>
+     <TD> 16294.1 </TD>
+     <TD> 100 </TD>
+     <TD> <a href="#OPENBLAS_rot">snippet</a>/<a href="#OPENBLAS_flags">flags</a>  </TD>
+     <TD> <a href="#OPENBLAS_comments">click here</a>  </TD>
+  </TR>
+  <TR>
+     <TD> eigen3 </TD>
+     <TD> 11973.8 </TD>
+     <TD> 80.8176 </TD>
+     <TD> 13966.8 </TD>
+     <TD> 85.7168 </TD>
+     <TD> <a href="#eigen3_rot">snippet</a>/<a href="#eigen3_flags">flags</a>  </TD>
+     <TD> <a href="#eigen3_comments">click here</a>  </TD>
+  </TR>
+</TABLE>
+<br/>
