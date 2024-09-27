@@ -139,6 +139,13 @@ ROS 2 核心团队征集了用户对 ROS 2 传输与中间件的需求列表。�
 + DDS 是目前 ROS 2 使用的代理框架，它满足许多需求但缺陷正如前所述；
 + Kafka 是一种有趣且广泛使用的消息服务，但它相当复杂，且消息传递模型不能直接映射到 ROS。
 
+社区也搜集了第三方对部分中间件进行的详细性能评估：
+
++ [Zenoh vs MQTT vs Kafka vs DDS](https://zenoh.io/blog/2023-03-21-zenoh-vs-mqtt-kafka-dds/)
++ [Fast-DDS vs CycloneDDS](https://eprosima.com/index.php/resources-all/performance/fast-dds-vs-cyclone-dds-performance)
++ [Fast-DDS vs ZeroMQ](https://eprosima.com/index.php/resources-all/performance/zmq-vs-eprosima-fast-rtps)
++ [Kafka vs ActiveMQ vs RabbitMQ](https://digitalscholarship.unlv.edu/cgi/viewcontent.cgi?article=4749&context=thesesdissertations)
+
 最终，Zenoh 被认为最符合要求，它同样也是用户最推荐的替代方案。它可以被视为 TCPROS 的一种现代实现，并且能够满足大多数 ROS 2 要求，因此被选为替代中间件。
  
 

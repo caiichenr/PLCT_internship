@@ -54,16 +54,19 @@ target_link_libraries(my_executable gz-math::core)
 > ROS 2 更新了一系列命令行操作特性来优化使用体验。
 
 #### b) 更新内容测试
-1. 增加了 `--log-file-name` 参数，可以在运行指令时指定输出的 log 文件名。
+1. [增加了 `--log-file-name` 参数](https://github.com/ros2/ros2cli/issues/856)，可以在运行指令时指定输出的 log 文件名。
    1. 运行 `ros2 run demo_nodes_cpp talker --ros-args --log-file-name filename`
 
-2. 在 `TopicStatisticsOptions` 中添加了一个用户可设置的 QoS 参数，该参数允许 statistics 具有与订阅本身不同的 QoS。
+2. [在 `TopicStatisticsOptions` 中添加了一个用户可设置的 QoS 参数](https://github.com/ros2/rclcpp/pull/2323)，该参数允许 statistics 具有与订阅本身不同的 QoS。
 
 3. 调用 `ros2 service info` 时会返回已连接客户端的数量.
-   1. ![图1_service info](./imgs/Jazzy/ros2cli-service-info.png)
+   ![图1_service info](./imgs/Jazzy/ros2cli-service-info.png)
 
-4. Actions 支持 ` ros2 action type <action name> ` 返回 action 类型。
-
+4. [Actions 支持 ` ros2 action type <action name> ` 返回 action 类型](https://github.com/ros2/ros2cli/pull/894)。
+   ```
+   ros2 action type /fibonacci
+   action_tutorials_interfaces/action/Fibonacci
+   ```
 
 ### 3. ROSBag Improvements
 
